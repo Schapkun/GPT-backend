@@ -15,9 +15,7 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "https://preview-version-meester.onrender.com",
-        "https://www.meester.app",
-        "https://smart-ai-builder-frontend.onrender.com"  # ✅ deze toevoegen
+        "https://gpt-frontend-hs35.onrender.com/"
     ],
     allow_credentials=True,
     allow_methods=["*"],
