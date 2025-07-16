@@ -15,7 +15,7 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "https://gpt-frontend-hs35.onrender.com/"
+        "https://gpt-frontend-hs35.onrender.com"
     ],
     allow_credentials=True,
     allow_methods=["*"],
