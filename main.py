@@ -50,7 +50,7 @@ async def handle_prompt(req: PromptRequest, request: Request):
         ] + [{"role": "user", "content": req.prompt}]
 
         response = openai.chat.completions.create(
-            model="gpt-4",
+            model="gpt-4o-mini",
             messages=messages,
             temperature=0.3,
         )
